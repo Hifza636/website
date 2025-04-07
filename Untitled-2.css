@@ -1,0 +1,120 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  padding: 20px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Navigation */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #004080;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.navbar .logo {
+  font-size: 1.5rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+  background: #cce6ff;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.cta-btn {
+  margin-top: 20px;
+  padding: 10px 25px;
+  background-color: #004080;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Main Sections */
+main section {
+  padding: 40px 20px;
+}
+
+section h2 {
+  margin-bottom: 10px;
+  color: #004080;
+}
+
+/* Contact Form */
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #004080;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  background: #004080;
+  color: white;
+  padding: 20px;
+}
+
+/* Responsive Media Query */
+@media (max-width: 768px) {
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .hero h2 {
+    font-size: 1.5rem;
+  }
+
+  .cta-btn {
+    width: 100%;
+  }
+
+  main section {
+    padding: 20px 10px;
+  }
+}
